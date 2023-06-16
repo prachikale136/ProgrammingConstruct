@@ -40,5 +40,20 @@ namespace ProgramConstruct
             }
         }
 
+        public static void Check()
+        {
+            Console.WriteLine("Enter the age of a Candidate");
+            int age = Convert.ToInt32(Console.ReadLine());
+
+            if(age >=18)
+            {
+                Console.WriteLine("Candidate is eligibale fot vote");
+            }
+            else
+            {
+                Console.WriteLine("Candiadate is not eligible for vote");
+            }
+        }
+
     }
 }

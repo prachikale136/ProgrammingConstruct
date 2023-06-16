@@ -6,7 +6,9 @@
         {
             //Console.WriteLine("Hello, World!");
          // IfStatement.CheckInteger();
-            IfStatement.CheckEvenOrOdd();
+          //
+          //IfStatement.CheckEvenOrOdd();
+          IfStatement.Check();
         }
     }
 }
