@@ -24,5 +24,21 @@ namespace ProgramConstruct
                 Console.WriteLine("Both number are not equal");
             }
         }
+
+        public static void CheckEvenOrOdd() 
+        {
+            Console.WriteLine("Ener the number to check");
+            int num = Convert.ToInt32(Console.ReadLine());
+
+            if (num % 2 == 0)
+            {
+                Console.WriteLine("number is Even");
+            }
+            else
+            {
+                Console.WriteLine("number is odd");
+            }
+        }
+
     }
 }
